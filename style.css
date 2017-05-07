@@ -1,0 +1,250 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	min-width: 1170px;
+}
+
+
+body {
+  background-image: url(img/fon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 960px;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+}
+
+.main {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.border {
+  border-bottom: 1px solid rgba(232, 232, 232, .1);
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.left_nav ul {
+  display: flex;
+  margin: 20px 0;
+}
+
+.matgin-left__nav+.matgin-left__nav {
+  margin: 0 0 0 25px;
+}
+
+.matgin-right__nav+.matgin-right__nav {
+  margin: 0 0 0 25px;
+}
+
+.right_nav ul {
+  display: flex;
+  margin: 20px 0;
+}
+
+.registration_img {
+  padding: 0 7px 0 0;
+}
+
+.search {
+  position: relative;
+}
+
+.search__position {
+  background-position: left;
+  outline: none;
+  border-radius: 20px;
+  padding: 14px 12px 12px 41px;
+  font-size: 14px;
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 174, 255, 0.04) 50%, rgba(255, 255, 255, 0) 51%, rgba(0, 174, 255, 0.03) 100%);
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid rgba(232, 232, 232, .2);
+  color: #fff;
+  max-width: 260px;
+  max-height: 40px;
+}
+
+.img__search {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 13px 11px 13px 16px;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 58px;
+}
+
+.equipmant_text {
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-right: 65px;
+}
+
+.phone-number>a {
+  font-size: 24px;
+  color: #fff;
+  line-height: 30px;
+  text-decoration: none;
+  margin-left: 84px;
+}
+
+button {
+  border-radius: 15px;
+  max-width: 150px;
+  max-height: 30px;
+  background-color: #009cc9;
+  border: none;
+  font-size: 14px;
+  color: #fff;
+  padding: 7px 16px 9px 16px;
+  outline: none;
+  cursor: pointer;
+}
+
+.title>h1 {
+  font-size: 40px;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 233px;
+}
+
+.catalog>p {
+  font-size: 18px;
+  line-height: 18px;
+  color: #fff;
+  margin-top: 31px;
+  padding: 16px 24px 16px 0;
+  border: 1px solid rgba(232, 232, 232, .2);
+  display: inline-block;
+}
+
+footer {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 53px;
+}
+
+footer h3 a {
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+footer p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  margin-top: 18px
+}
+
+.right_footer {
+  margin-left: 22px;
+}
+
+.margin-footer {
+  margin-right: 95px;
+  display: flex;
+  white-space: nowrap;
+}
+
+.margin-footer2 {
+  margin-right: 118px;
+  display: flex;
+  white-space: nowrap;
+}
+
+.menu__list {
+  width: 240px;
+  height: 180px;
+  background: rgba(255, 255, 255, 0.1);
+  display: none;
+}
+
+.menu__list li {
+  padding: 15px;
+}
+
+.menu__list li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu__list li:hover {
+  background-color: #000;
+}
+
+.menu {
+  cursor: pointer;
+}
+
+.catalog p img {
+  padding-right: 21px;
+  padding-left: 21px;
+}
